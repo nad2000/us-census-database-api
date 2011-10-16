@@ -1,0 +1,1 @@
+mysql --user=root -Duscensus2010 <load_data.sql

@@ -2,6 +2,7 @@
 syntax: glob
 
 mysql-connector-python*
+*.db
 *.elc
 *.pyc
 *.o
