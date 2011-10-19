@@ -129,10 +129,10 @@ FROM file_field
 ORDER BY start_pos;
 */
 
--- DROP TABLE IF EXISTS demographic_profile;
+-- DROP TABLE IF EXISTS geoheader;
 
-CREATE TABLE IF NOT EXISTS demographic_profile (
-  id bigint(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS geoheader (
+  id int(11) NOT NULL AUTO_INCREMENT,
   FILEID varchar(6) NULL DEFAULT NULL COMMENT 'File Identification',
   STUSAB char(2) NULL DEFAULT NULL COMMENT 'State/U.S. Abbreviation (USPS)',
   SUMLEV char(3) NULL DEFAULT NULL COMMENT 'Summary Level',
@@ -237,3 +237,5 @@ CREATE TABLE IF NOT EXISTS demographic_profile (
   PRIMARY KEY (id),
   UNIQUE ( STUSAB,LOGRECNO )
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE INDEX geoheader_idx ON geoheader (STUSAB,LOGRECNO);

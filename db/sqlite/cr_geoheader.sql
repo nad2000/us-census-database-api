@@ -1,5 +1,5 @@
--- demographic_profile
-CREATE TABLE IF NOT EXISTS demographic_profile (
+-- geoheader
+CREATE TABLE IF NOT EXISTS geoheader (
   id INTEGER NOT NULL PRIMARY KEY,
   FILEID TEXT NULL DEFAULT NULL,
   STUSAB TEXT NULL DEFAULT NULL,
@@ -105,5 +105,4 @@ CREATE TABLE IF NOT EXISTS demographic_profile (
   UNIQUE ( STUSAB,LOGRECNO )
 );
 
-CREATE INDEX demographic_profile_zcta5_idx ON demographic_profile ( ZCTA5 ASC);
-CREATE UNIQUE INDEX demographic_profile_rows_idx ON demographic_profile  (STUSAB, LOGRECNO);
+CREATE UNIQUE INDEX geoheader_idx ON demographic_profile (STUSAB, LOGRECNO);

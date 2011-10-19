@@ -1,5 +1,8 @@
+TRUNCATE TABLE ZCTA_MA;
+
 LOAD DATA LOCAL
-    INFILE '/home/local/ENDACE/rad.cirskis/Downloads/zcta_msa/zcta_to_99msa_rel.txt'
+    -- INFILE '/home/local/ENDACE/rad.cirskis/Downloads/zcta_msa/zcta_to_99msa_rel.txt'
+    INFILE 'E:\\projects\\us-census-database-api\\data\\zcta_to_99msa_rel.txt'
     REPLACE -- IGNORE --
     INTO TABLE ZCTA_MA
     FIELDS TERMINATED BY '\t'
