@@ -34,6 +34,10 @@ def run_test():
   assert records[0]['dpsf0230002'] == '2.17'
   assert len(records)==2
 
+  response = app.get_response('/records/NODATA')
+  assert response.status_int == 200
+  records = json.loads(response.body)
+  assert len(records)==0
 
 if __name__ == '__main__':
   run_test()
