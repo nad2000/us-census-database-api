@@ -25,8 +25,8 @@ def set_trace():
 
 class S3File:
   bucket = 'mm.la'
-  access_key='AKIAIE4XT3OMSMEGXHZQ'
-  secret_key='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'
+  access_key='==KEY==='
+  secret_key='===SECRET==='
   _bucket = None
 
   def get_bucket( self):
