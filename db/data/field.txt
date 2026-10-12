@@ -1,0 +1,91 @@
+AIANHH|American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+AIANHHCC|FIPS American Indian Area/Alaska Native Area/Hawaiian Home Land Class Code
+AIANHHFP|American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+AIHHTLI|American Indian Trust Land/Hawaiian Home Land Indicator
+AITS|American Indian Tribal Subdivision (FIPS)
+AITSCC|FIPS American Indian Tribal Subdivision Class Code
+AITSCE|American Indian Tribal Subdivision (Census)
+ANRC|Alaska Native Regional Corporation (FIPS)
+ANRCCC|FIPS Alaska Native Regional Corporation Class Code
+AREALAND|Area (Land)
+AREAWATR|Area (Water)
+BLKGRP|Block Group
+BLOCK|Block
+CBSA|Metropolitan Statistical Area/Micropolitan Statistical Area
+CBSASC|Metropolitan Statistical Area/Micropolitan Statistical Area Size Code
+CD106|Congressional District (106th)
+CD108|Congressional District (108th)
+CD109|Congressional District (109th)
+CD110|Congressional District (110th)
+CHARITER|Characteristic Iteration
+CIFSN|Characteristic Iteration File Sequence Number
+CMSA|Consolidated Metropolitan Statistical Area
+CNECTA|Combined New England City and Town Area
+CONCIT|Consolidated City (FIPS)
+CONCITCC|FIPS Consolidated City Class Code
+CONCITSC|Consolidated City Size Code
+COUNTY|County
+COUNTYSC|County Size Code
+COUSUB|County Subdivision (FIPS)
+COUSUBCC|FIPS County Subdivision Class Code
+COUSUBSC|County Subdivision Size Code
+CSA|Combined Statistical Area
+DIVISION|Division
+EXI|Extended Place Indicator
+FUNCSTAT|Functional Status Code
+GCUNI|Geographic Change User Note Indicator
+GEOCOMP|Geographic Component
+HU100|Housing Unit Count (100%)
+INTPTLAT|Internal Point (Latitude)
+INTPTLON|Internal Point (Longitude)
+IUC|Internal Use Code
+LOGRECNO|Logical Record Number
+LSADC|Legal/Statistical Area Description Code
+MACC|Metropolitan Area Central City
+MACCI|Metropolitan Area Central City Indicator
+MASC|MSA/CMSA Size Code
+METDIV|Metropolitan Division
+MSACMSA|Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area
+NAME|Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+NECMA|New England County Metropolitan Area
+NECMACCI|New England County Metropolitan Area Central City Indicator
+NECMASC|New England County Metropolitan Area Size Code
+NECTA|New England City and Town Area
+NECTADIV|New England City and Town Area Division
+NECTASC|New England City and Town Area Size Code
+PARTFLAG|Part Flag
+PLACE|Place (FIPS)
+PLACECC|FIPS Place Class Code
+PLACESC|Place Size Code
+PMSA|Primary Metropolitan Statistical Area
+POP100|Population Count (100%)
+PUMA1|Public Use Microdata Area - 1% File
+PUMA5|Public Use Microdata Area - 5% File
+REGION|Region
+RESERVE2|Reserved
+RESERVED|Reserved
+SDELM|School District (Elementary)
+SDSEC|School District (Secondary)
+SDUNI|School District (Unified)
+SLDL|State Legislative District (Lower Chamber)
+SLDU|State Legislative District (Upper Chamber)
+STATE|State (FIPS)
+STATECE|State (Census)
+STUSAB|State/U.S.-Abbreviation (USPS)
+SUBMCD|Subbarrio (FIPS)
+SUBMCDCC|FIPS Subbarrio Class Code
+SUMLEV|Summary Level
+TAZ|Traffic Analysis Zone
+TBLKGRP|Tribal Block Group
+TRACT|Census Tract
+TTRACT|Tribal census tract
+UA|Urban Area
+UACP|Urban Area Central Place
+UASC|Urban Area Size Code
+UATYPE|Urban Area Type
+UGA|Oregon Urban Growth Area
+UR|Urban/Rural
+VTD|Voting District
+VTDI|Voting District Indicator
+ZCTA3|ZIP Code Tabulation Area (3 digit)
+ZCTA5|ZIP Code Tabulation Area (5 digit)
